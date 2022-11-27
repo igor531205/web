@@ -1,0 +1,19 @@
+html {
+    background-color: aqua;
+}
+
+header {
+    color: rgb(45, 41, 41);
+}
+
+.gbimg {
+    width: 25vw;
+}
+
+.nav {
+    color: rgb(10, 9, 9);
+}
+
+.main {
+    color: rgb(7, 7, 7);
+}

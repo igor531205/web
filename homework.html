@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+    function enterName() {
+        return prompt("Enter you name");
+    }
+    function printName(name) {
+        alert(`Hello, ${name}!`);
+    }
+    let name = enterName();
+    printName(name);
+</script>
+
 <body>
     <header>
         <div>
@@ -53,16 +64,6 @@
             </strong>
         </span>
     </footer>
-    <script>
-        function enterName() {
-            return prompt("Enter you name");
-        }
-        function printName(name) {
-            alert(`Hello, ${name}!`);
-        }
-        let name = enterName();
-        printName(name);
-    </script>
 </body>
 
 </html>

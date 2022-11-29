@@ -10,17 +10,9 @@
 </head>
 
 <body>
-    <script>
-        function inputName() {
-            return prompt("Enter you name", "Name");
-        }
-        function printName(name) {
-            alert(`Hello, ${name}!`);
-        }
-        printName(inputName());
-    </script>
-
     <header>
+        <div id="name"></div>
+
         <div>
             <img src="https://frontend-scripts.hb.bizmrg.com/unique-hf/svg/logo_gb_light.svg" alt="GeekBrains image"
                 class="gbimg">
@@ -59,7 +51,17 @@
     <footer>
         <span>
             <strong>
-                Good by
+                <script>
+                    function inputName() {
+                        return prompt("Enter you name", "Name");
+                    }
+                    function printName(name) {
+                        alert(`Hello, ${name}!`);
+                    }
+                    let name = inputName()
+                    printName(name);
+                    document.write(`Good by, ${name}!`);
+                </script>
             </strong>
         </span>
     </footer>

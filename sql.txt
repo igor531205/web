@@ -1,0 +1,14 @@
+id, name, age, address.
+-- create
+CREATE TABLE EMPLOYEE (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    address TEXT
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Сергей', '31');
+INSERT INTO EMPLOYEE VALUES (0002, 'Илья', '27');
+INSERT INTO EMPLOYEE VALUES (0003, 'Света', '21');
+INSERT INTO EMPLOYEE VALUES (0004, 'Катя', '18');

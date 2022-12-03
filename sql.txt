@@ -1,4 +1,3 @@
-id, name, age, address.
 -- create
 CREATE TABLE EMPLOYEE (
     id INTEGER PRIMARY KEY,
